@@ -16,7 +16,7 @@ markdown_extensions:
   - admonition
 nav:
   - Symfony:
-    - Form: void.md
+    - Form: 
       - Text Fields:
         - TextType : void.md
         - TextareaType : void.md
