@@ -16,7 +16,41 @@ markdown_extensions:
   - admonition
 nav:
   - Symfony:
-    - Form: Symfony/Form/form.md
+    - Form: void.md
+      - Text Fields:
+        - TextType : void.md
+        - TextareaType : void.md
+        - EmailType : void.md
+        - IntegerType : void.md
+        - MoneyType : void.md
+        - NumberType : void.md
+        - PasswordType : void.md
+        - PercentType : void.md
+        - SearchType : void.md
+        - UrlType : void.md
+        - RangeType : void.md
+        - TelType : void.md
+        - ColorType : void.md
+      - Choice Fields :
+        - ChoiceType : void.md
+        - EnumType : void.md
+        - EntityType : void.md
+        - CountryType : void.md
+        - LanguageType : void.md
+        - LocaleType : void.md
+        - TimezoneType : void.md
+        - CurrencyType : void.md
+      - Date and Time Fields :
+        - DateType : void.md
+        - DateIntervalType : void.md
+        - DateTimeType : void.md
+        - TimeType : void.md
+        - BirthdayType : void.md
+        - WeekType : void.md
+      - Other Fields :
+        - CheckboxType : void.md
+        - FileType : void.md
+        - RadioType : void.md
   - ORMC:
     - PES_Aller:
       - Depense: rien
