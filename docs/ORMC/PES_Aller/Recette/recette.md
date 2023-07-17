@@ -5,11 +5,11 @@
 
 ## EnTeteRecette
 ### idVer
-    **Cardinalité**: 1-1<br>
-    **Description**:	N° de version du PES recette. – Mettre à « 2 ». A défaut rejet du flux.
+**Cardinalité**: 1-1<br>
+**Description**:	N° de version du PES recette. – Mettre à « 2 ». A défaut rejet du flux.
 #### infoDematerialisee
-    **Cardinalité**: 0-1<br>
-    **Description**:	Précise si les blocs recette véhiculent des bordereaux & mandats dématérialisées (1) ou non (0).
+**Cardinalité**: 0-1<br>
+**Description**:	Précise si les blocs recette véhiculent des bordereaux & mandats dématérialisées (1) ou non (0).
 La valeur (0) n'empêche pas de communiquer des pièces justificatives dématérialisées et leurs références (PJRef)
 Si non présent considéré à '0'
 La valeur 1 ne peut être autorisée qu'avec une signature électronique. Si valeur= 1 et absence de signature électronique, rejet du flux.
