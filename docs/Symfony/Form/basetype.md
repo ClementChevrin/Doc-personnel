@@ -65,6 +65,7 @@ $builder->add('input', TextareaType::class, [
     'block_prefix' => "blockPrefix",
 ]);
 ```
+<a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## Disabled
 **Nom de champ:** 'disabled'<br>
@@ -80,6 +81,7 @@ $builder->add('input', TextareaType::class, [
     'disabled' => true,
 ]);
 ```
+<a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## Label
 **Nom de champ:** 'label'<br>
@@ -95,6 +97,7 @@ $builder->add('input', TextareaType::class, [
     'label' => "Input Field",
 ]);
 ```
+<a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## LabelHtml
 **Nom de champ:** 'label_html'<br>
@@ -110,6 +113,7 @@ $builder->add('input', TextareaType::class, [
     'label_html' => true,
 ]);
 ```
+<a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## RowAttr
 **Nom de champ:** 'row_attr'<br>
@@ -125,6 +129,7 @@ $builder->add('input', TextareaType::class, [
     'row_attr' => ['class' => 'myrow'],
 ]);
 ```
+<a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## TranslationDomain
 **Nom de champ:** 'translation_domain'<br>
@@ -140,6 +145,7 @@ $builder->add('input', TextareaType::class, [
     'translation_domain' => 'messages',
 ]);
 ```
+<a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## LabelTranslationParameters
 **Nom de champ:** 'label_translation_parameters'<br>
@@ -155,6 +161,7 @@ $builder->add('input', TextareaType::class, [
     'label_translation_parameters' => ['%count%' => 10],
 ]);
 ```
+<a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## AttrTranslationParameters
 **Nom de champ:** 'attr_translation_parameters'<br>
@@ -170,6 +177,7 @@ $builder->add('input', TextareaType::class, [
     'attr_translation_parameters' => [];
 ]);
 ```
+<a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## Priority
 **Nom de champ:** 'priority'<br>
@@ -187,4 +195,5 @@ $builder->add('input', TextareaType::class, [
     'priority' => 1,
 ]);
 ```
+<a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
