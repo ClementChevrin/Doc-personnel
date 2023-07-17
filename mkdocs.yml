@@ -14,6 +14,7 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+navigation_depth: -1
 nav:
   - Symfony:
     - Form: 
