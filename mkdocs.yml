@@ -16,4 +16,5 @@ markdown_extensions:
   - admonition
 nav:
   - Accueil: accueil.md
-  - Symfony: symfony.md
+  - Symfony:
+    - Form: form.md
