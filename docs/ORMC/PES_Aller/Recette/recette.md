@@ -9,5 +9,6 @@
     <p class="fisrt admonition-title">Attention</p>
     <p class="last">Test</p>
 </div>
+{% include 'docs/ORMC/PES_Aller/enveloppe.md' %}
 
 # Recette
