@@ -15,8 +15,13 @@ markdown_extensions:
       base_path: .
   - admonition
 nav:
-  - Accueil: accueil.md
   - Symfony:
     - Form: Symfony/Form/form.md
-  - Test:
-    - symf: symfony.md
+  - ORMC:
+    - PES_Aller:
+      - Depense: rien
+      - Recette:
+        - Enveloppe: ORMC/PES_Aller/enveloppe.md
+        - EnTetePES: ORMC/PES_Aller/entetepes.md
+        - Recette: ORMC/PES_Aller/Recette/recette.md
+    - PES_Retour: rien
