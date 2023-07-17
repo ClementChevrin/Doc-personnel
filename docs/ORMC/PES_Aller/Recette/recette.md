@@ -3,7 +3,10 @@
 
 # Recette
 
-## 1
+## EnTeteRecette
+### idVer
+`Cardinalité`: 1-1
+`Description`:	N° de version du PES recette. – Mettre à « 2 ». A défaut rejet du flux.
 
 <div class="admonition attention">
     <p class="fisrt admonition-title">Attention</p>
