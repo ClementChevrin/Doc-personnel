@@ -1,5 +1,5 @@
 ## 1
-{!../enveloppe.md!}
+{!README.md!}
 ## 2
 {!docs/ORMC/PES_ALLEZ/enveloppe.md!}
 ## 3
