@@ -1,7 +1,7 @@
 # Options Hérité
 
 ## Attr
-**Nom de chammp:** 'attr'<br>
+**Nom de champ:** 'attr'<br>
 **Type:** *array*<br>
 **Valeur par défaut:** `[]`<br>
 **Description:**
@@ -16,7 +16,7 @@ $builder->add('input', TextareaType::class, [
 <a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## AutoInitialize
-**Nom de chammp:** 'auto_initialize'<br>
+**Nom de champ:** 'auto_initialize'<br>
 **Type:** *boolean*<br>
 **Valeur par défaut:** `true`<br>
 **Description:**
@@ -31,11 +31,12 @@ $builder->add('input', TextareaType::class, [
 <a href="#" class="btn btn-neutral float-right">Retour au menu</a>
 
 ## BlockName
-**Nom de chammp:** 'block_name'<br>
+**Nom de champ:** 'block_name'<br>
 **Type:** *string*<br>
 **Valeur par défaut:** `null`<br>
 **Description:**
 > Vous permet d'ajouter un nom de bloc personnalisé à ceux utilisés par défaut pour rendre le type de formulaire. Utile par exemple si vous avez plusieurs instances du même formulaire et que vous avez besoin de personnaliser le rendu des formulaires individuellement.
+>
 >Si vous définissez par exemple cette option sur `my_custom_name` et que le champ est de type `text`, Symfony utilisera les noms suivants (et dans cet ordre) pour trouver le bloc utilisé pour rendre le widget du champ : `_my_custom_name_widget`, `text_widget` et `form_widget`.
 
 **Exemple:**
