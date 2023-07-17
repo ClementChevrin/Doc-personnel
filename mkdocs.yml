@@ -15,4 +15,4 @@ markdown_extensions:
       base_path: .
   - admonition
 nav:
-  - Accueil: Index.md
+  - Accueil: accueil.md
