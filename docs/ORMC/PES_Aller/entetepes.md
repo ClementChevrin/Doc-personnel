@@ -1,1 +1,9 @@
-# EnTetePES
+    - `<EnTetePES>`
+        - `<DteStr>`
+        - `<IdPost>`
+        - `<LibellePoste>`
+        - `<IdColl>`
+        - `<FinJur>`
+        - `<CodCol>`
+        - `<CodBud>`
+        - `<LibelleColBud>`
