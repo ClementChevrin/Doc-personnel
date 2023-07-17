@@ -1,4 +1,6 @@
-Hello world !
-===============================================
-
-[![Documentation Status](https://readthedocs.org/projects/example-mkdocs-basic/badge/?version=latest)](https://example-mkdocs-basic.readthedocs.io/en/latest/?badge=latest)
+#H1
+##H2
+###H3
+####H4
+#####H5
+######H6
