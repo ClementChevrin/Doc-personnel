@@ -20,18 +20,18 @@ nav:
     - Form: 
       - Text Fields:
         - TextType : Symfony/Form/TextFields/texttype.md
-        - TextareaType : void.md
-        - EmailType : void.md
-        - IntegerType : void.md
-        - MoneyType : void.md
-        - NumberType : void.md
-        - PasswordType : void.md
-        - PercentType : void.md
-        - SearchType : void.md
-        - UrlType : void.md
-        - RangeType : void.md
-        - TelType : void.md
-        - ColorType : void.md
+        - TextareaType : Symfony/Form/TextFields/textareatype.md
+        - EmailType : Symfony/Form/TextFields/emailtype.md
+        - IntegerType : Symfony/Form/TextFields/integertype.md
+        - MoneyType : Symfony/Form/TextFields/moneytype.md
+        - NumberType : Symfony/Form/TextFields/numbertype.md
+        - PasswordType : Symfony/Form/TextFields/passwordtype.md
+        - PercentType : Symfony/Form/TextFields/percenttype.md
+        - SearchType : Symfony/Form/TextFields/searchtype.md
+        - UrlType : Symfony/Form/TextFields/urltype.md
+        - RangeType : Symfony/Form/TextFields/rangetype.md
+        - TelType : Symfony/Form/TextFields/teltype.md
+        - ColorType : Symfony/Form/TextFields/colortype.md
       - Choice Fields :
         - ChoiceType : void.md
         - EnumType : void.md

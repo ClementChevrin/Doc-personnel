@@ -1,0 +1,1 @@
+{!docs/Symfony/Form/formtype.md!}
