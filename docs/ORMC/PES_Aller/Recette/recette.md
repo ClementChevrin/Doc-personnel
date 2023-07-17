@@ -1,5 +1,5 @@
 # Recette
-n:PES_Aller
+n:PES_Aller<br>
 {!docs/ORMC/PES_Aller/enveloppe.md!}
 {!docs/ORMC/PES_Aller/entetepes.md!}
 
