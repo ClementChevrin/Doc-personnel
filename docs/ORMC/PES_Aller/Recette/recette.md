@@ -26,80 +26,81 @@ La valeur 0 et la présence d'une signature électronique aboutissent au rejet d
 </div>
 
 <style>
-        .tree a {
-            color: #E74C3C;
-            text-decoration: none;
-            padding: 2px 6px;
-            font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, Courier, monospace;
-            max-width: 100%;
-            background: #fff;
-            border: 1px solid #E1E4E5;
-            font-size: 75%;
-            margin: 8px 0;
-            display: inline-block;
-        }
+    .tree a {
+        color: #E74C3C;
+        text-decoration: none;
+        padding: 2px 6px;
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, Courier, monospace;
+        max-width: 100%;
+        background: #fff;
+        border: 1px solid #E1E4E5;
+        font-size: 75%;
+        margin: 8px 0;
+        display: inline-block;
+    }
 
-        .tree div a:first-child {
-            margin: 0 0 8px 0;
-            display: inline-block;
-        }
+    .tree div a:first-child {
+        margin: 0 0 8px 0;
+        display: inline-block;
+    }
 
-        .tree div:first-child {
-            padding-bottom: 8px;
-        }
+    .tree div:first-child {
+        padding-bottom: 8px;
+    }
 
-        .tree a:hover {
-            color: #e77a6e;
-            text-decoration: none;
-        }
+    .tree a:hover {
+        color: #e77a6e;
+        text-decoration: none;
+    }
 
-        .tree a::before {
-            content: "<";
-        }
+    .tree a::before {
+        content: "<";
+    }
 
-        .tree a::after {
-            content: ">";
-        }
+    .tree a::after {
+        content: ">";
+    }
 
-        .tree div {
-            margin: 0px 8px 0px 8px;
-            border-left: solid 1px rgb(185, 185, 185);
-            padding-left: 8px;
-        }
-    </style>
-    <div class="tree">
-        <a href="#">n:PES_Aller</a>
+    .tree div {
+        margin: 0px 8px 0px 8px;
+        border-left: solid 1px rgb(185, 185, 185);
+        padding-left: 8px;
+    }
+</style>
+
+<div class="tree">
+    <a href="#">n:PES_Aller</a>
+    <div>
+        <a href="#">Enveloppe</a>
         <div>
-            <a href="#">Enveloppe</a>
+            <a href="#">Parametres</a>
             <div>
-                <a href="#">Parametres</a>
-                <div>
-                    <a href="#">Version</a>
-                </div>
-                <div>
-                    <a href="#">TypFic</a>
-                </div>
-                <div>
-                    <a href="#">NomFic</a>
-                </div>
+                <a href="#">Version</a>
             </div>
             <div>
-                <a href="#">Emetteur</a>
-                <div>
-                    <a href="#">Sigle</a>
-                </div>
-                <div>
-                    <a href="#">Adresse</a>
-                </div>
+                <a href="#">TypFic</a>
             </div>
             <div>
-                <a href="#">Recepteur</a>
-                <div>
-                    <a href="#">Sigle</a>
-                </div>
-                <div>
-                    <a href="#">Adresse</a>
-                </div>
+                <a href="#">NomFic</a>
+            </div>
+        </div>
+        <div>
+            <a href="#">Emetteur</a>
+            <div>
+                <a href="#">Sigle</a>
+            </div>
+            <div>
+                <a href="#">Adresse</a>
+            </div>
+        </div>
+        <div>
+            <a href="#">Recepteur</a>
+            <div>
+                <a href="#">Sigle</a>
+            </div>
+            <div>
+                <a href="#">Adresse</a>
             </div>
         </div>
     </div>
+</div>
