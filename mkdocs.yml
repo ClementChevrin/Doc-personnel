@@ -1,6 +1,8 @@
 site_name: Documentation personnel
 theme:
   name: readthedocs
+  features:
+    - collapse
   highlightjs: true
 plugins:
   - search
