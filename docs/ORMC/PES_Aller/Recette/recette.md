@@ -58,11 +58,15 @@ Les fichiers échangés entre l'ordonnateur et HELIOS sont construits selon la s
     }
 
     .tree div {
-        margin: 0px 8px 0px 8px;
+        margin: 0px 8px 8px 8px;
         border-left: solid 1px rgb(185, 185, 185);
         padding-left: 20px;
         display: flex;
         flex-direction: column;
+    }
+
+    .tree div:last-of-type {
+        margin: 0px 8px 0px 8px;
     }
 </style>
 
