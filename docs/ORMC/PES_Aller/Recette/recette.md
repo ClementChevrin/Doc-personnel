@@ -6,7 +6,7 @@
 <a style="background-color:#404040;color:white;border: 1px solid transparent;padding: 0.375rem 0.75rem;font-size: 1rem;line-height: 1.5;border-radius: 0.25rem;" href="#recette">Strucure</a>
 
 
-# Recettes
+# Recette
 
 ## EnTeteRecette
 ### idVer
