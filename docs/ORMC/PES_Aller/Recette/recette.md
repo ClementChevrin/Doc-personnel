@@ -1,7 +1,17 @@
 # Recette
+## Présentation 
+Les données à échanger entre ordonnateurs et HELIOS sont véhiculées sous forme de fichiers informatique.
+
+Un ordonnateur a le choix, pour effectuer la transmission et la réception de données et de documents électroniques, de recourir soit à un dispositif de transmission mis en œuvre par un opérateur «tiers de transmission», soit à la passerelle de transmission sécurisée d'Hélios. L'ordonnateur peut assumer directement la fonction de tiers de transmission en mettant en oeuvre un dispositif de transmission. Le recours à un dispositif de transmission par un tiers de transmission est recommandé dans la logique d'interopérabilité des échanges entre administrations.
+
+La description de l'infrastructure de transfert ainsi que la définition des canaux sont en dehors du cadre de ce document.
+
+Les fichiers échangés entre l'ordonnateur et HELIOS sont construits selon la syntaxe XML, selon des dispositions décrites dans ce document.
+
+## Structure
 - `<n:PES_Aller>`
-{!docs/ORMC/PES_Aller/enveloppe.md!}
-{!docs/ORMC/PES_Aller/entetepes.md!}
+{!docs/ORMC/PES_Aller//enveloppe.md!}
+{!docs/ORMC/PES_Aller//entetepes.md!}
 
 
 <style>
@@ -106,7 +116,9 @@
     </div>
 </div>
 
-## EnTeteRecette
+
+## Balise
+### EnTeteRecette
 ### idVer
 **Cardinalité**: 1-1<br>
 **Description**:	N° de version du PES recette. – Mettre à « 2 ». A défaut rejet du flux.
