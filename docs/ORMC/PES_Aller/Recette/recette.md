@@ -25,3 +25,11 @@ La valeur 0 et la présence d'une signature électronique aboutissent au rejet d
     <p class="fisrt admonition-title">Attention</p>
     <p class="last">Test</p>
 </div>
+
+<details>
+    <summary>More Information</summary>
+    <details>
+    <summary>More Information</summary>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</details>
+</details>
