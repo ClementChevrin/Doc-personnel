@@ -56,4 +56,11 @@ nav:
     - PES_Aller:
       - Depense: void.md
       - Recette: ORMC/PES_Aller/Recette/recette.md
-    - PES_Retour: void.md
+      - Facture: void.md
+      - Marche: void.md
+      - PJ: void.md
+    - PES_Retour: 
+      - Depense: void.md
+      - Recette: void.md
+      - Client: void.md
+    - Budgétaire: void.md
