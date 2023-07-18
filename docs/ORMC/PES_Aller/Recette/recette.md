@@ -33,11 +33,18 @@ La valeur 0 et la présence d'une signature électronique aboutissent au rejet d
         font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, Courier, monospace;
         max-width: 100%;
         background: #fff;
-        border: 1px solid #E1E4E5;
+        border: 1px solid #c2c2c2;
         font-size: 75%;
         margin: 8px 0;
         display: inline-block;
     }
+
+    .tree a[title="facultatif"] {
+        border-style: dashed;
+        border-color: #bdbdbd;
+        background: #fafafa;
+    }
+
 
     .tree div a:first-child {
         margin: 0 0 8px 0;
@@ -64,7 +71,7 @@ La valeur 0 et la présence d'une signature électronique aboutissent au rejet d
     .tree div {
         margin: 0px 8px 0px 8px;
         border-left: solid 1px rgb(185, 185, 185);
-        padding-left: 8px;
+        padding-left: 20px;
     }
 </style>
 
@@ -94,12 +101,63 @@ La valeur 0 et la présence d'une signature électronique aboutissent au rejet d
             </div>
         </div>
         <div>
-            <a href="#">Recepteur</a>
+            <a href="#" title="facultatif">Recepteur</a>
             <div>
-                <a href="#">Sigle</a>
+                <a href="#" title="facultatif">Sigle</a>
             </div>
             <div>
-                <a href="#">Adresse</a>
+                <a href="#" title="facultatif">Adresse</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a href="#">EnTetePES</a>
+        <div>
+            <a href="#">DteStr</a>
+        </div>
+        <div>
+            <a href="#">IdPost</a>
+        </div>
+        <div>
+            <a href="#" title="facultatif">LibellePoste</a>
+        </div>
+        <div>
+            <a href="#">IdColl</a>
+        </div>
+        <div>
+            <a href="#" title="facultatif">FinnJur</a>
+        </div>
+        <div>
+            <a href="#">CodCol</a>
+        </div>
+        <div>
+            <a href="#" title="facultatif">CodBud</a>
+        </div>
+        <div>
+            <a href="#" title="facultatif">LibelleColBud</a>
+        </div>
+    </div>
+    <div>
+        <a href="#">PES_RecetteAller</a>
+        <div>
+            <a href="#">EnTeteRecette</a>
+            <div>
+                <a href="#">IdVer</a>
+            </div>
+            <div>
+                <a href="#" title="facultatif">InfoDematerialisee</a>
+            </div>
+        </div>
+        <div>
+            <a href="#">Bordereau</a>
+            <div>
+                <a href="#">BlocBordereau</a>
+            </div>
+            <div>
+                <a href="#">Piece</a>
+            </div>
+            <div>
+                <a href="#" title="facultatif">PESSignatureGroup</a>
             </div>
         </div>
     </div>
