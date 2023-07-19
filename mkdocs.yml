@@ -18,42 +18,46 @@ markdown_extensions:
   - admonition
 navigation_depth: -1
 nav:
-  - Symfony:
-    - Form: 
-      - Text Fields:
-        - TextType : Symfony/Form/TextFields/texttype.md
-        - TextareaType : Symfony/Form/TextFields/textareatype.md
-        - EmailType : Symfony/Form/TextFields/emailtype.md
-        - IntegerType : Symfony/Form/TextFields/integertype.md
-        - MoneyType : Symfony/Form/TextFields/moneytype.md
-        - NumberType : Symfony/Form/TextFields/numbertype.md
-        - PasswordType : Symfony/Form/TextFields/passwordtype.md
-        - PercentType : Symfony/Form/TextFields/percenttype.md
-        - SearchType : Symfony/Form/TextFields/searchtype.md
-        - UrlType : Symfony/Form/TextFields/urltype.md
-        - RangeType : Symfony/Form/TextFields/rangetype.md
-        - TelType : Symfony/Form/TextFields/teltype.md
-        - ColorType : Symfony/Form/TextFields/colortype.md
-      - Choice Fields :
-        - ChoiceType : void.md
-        - EnumType : void.md
-        - EntityType : void.md
-        - CountryType : void.md
-        - LanguageType : void.md
-        - LocaleType : void.md
-        - TimezoneType : void.md
-        - CurrencyType : void.md
-      - Date and Time Fields :
-        - DateType : void.md
-        - DateIntervalType : void.md
-        - DateTimeType : void.md
-        - TimeType : void.md
-        - BirthdayType : void.md
-        - WeekType : void.md
-      - Other Fields :
-        - CheckboxType : void.md
-        - FileType : void.md
-        - RadioType : void.md
+  - Dlls:
+    - Java:
+      - Depense: void.md
+  - Framework:
+    - Symfony:
+      - Form: 
+        - Text Fields:
+          - TextType : Symfony/Form/TextFields/texttype.md
+          - TextareaType : Symfony/Form/TextFields/textareatype.md
+          - EmailType : Symfony/Form/TextFields/emailtype.md
+          - IntegerType : Symfony/Form/TextFields/integertype.md
+          - MoneyType : Symfony/Form/TextFields/moneytype.md
+          - NumberType : Symfony/Form/TextFields/numbertype.md
+          - PasswordType : Symfony/Form/TextFields/passwordtype.md
+          - PercentType : Symfony/Form/TextFields/percenttype.md
+          - SearchType : Symfony/Form/TextFields/searchtype.md
+          - UrlType : Symfony/Form/TextFields/urltype.md
+          - RangeType : Symfony/Form/TextFields/rangetype.md
+          - TelType : Symfony/Form/TextFields/teltype.md
+          - ColorType : Symfony/Form/TextFields/colortype.md
+        - Choice Fields :
+          - ChoiceType : void.md
+          - EnumType : void.md
+          - EntityType : void.md
+          - CountryType : void.md
+          - LanguageType : void.md
+          - LocaleType : void.md
+          - TimezoneType : void.md
+          - CurrencyType : void.md
+        - Date and Time Fields :
+          - DateType : void.md
+          - DateIntervalType : void.md
+          - DateTimeType : void.md
+          - TimeType : void.md
+          - BirthdayType : void.md
+          - WeekType : void.md
+        - Other Fields :
+          - CheckboxType : void.md
+          - FileType : void.md
+          - RadioType : void.md
   - ORMC:
     - PES_Aller:
       - Depense: void.md
