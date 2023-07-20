@@ -1,8 +1,7 @@
 site_name: Documentation personnel
 theme:
   name: readthedocs
-  features:
-    - collapse
+  collapse: true
   highlightjs: true
 plugins:
   - search
@@ -18,7 +17,7 @@ markdown_extensions:
   - admonition
 navigation_depth: -1
 nav:
-  - Dlls:
+  - Librairie:
     - Java:
       - Depense: void.md
   - Framework:
